@@ -2,9 +2,7 @@
 /* CSS Document */
 
 /******************************
-
 [Table of Contents]
-
 1. 1600px
 2. 1440px
 3. 1280px
@@ -18,7 +16,6 @@
 11. 539px
 12. 479px
 13. 400px
-
 ******************************/
 
 /************
@@ -376,6 +373,17 @@
 		width: 100%;
 		padding-left: 0;
 	}
+	.gallery-row{
+	padding:3%;
+}
+
+.gallery-img{
+	border-style: solid; 
+	border-color:rgb(56, 65, 88);
+	margin: 2%;
+
+}
+
 }
 
 /************
@@ -402,7 +410,16 @@
 
 @media only screen and (max-width: 479px)
 {
-	
+	.gallery-row{
+	padding:3%;
+}
+
+.gallery-img{
+	border-style: solid; 
+	border-color:rgb(56, 65, 88);
+	margin: 2%;
+
+}	
 }
 
 /************
@@ -411,5 +428,15 @@
 
 @media only screen and (max-width: 400px)
 {
-	
+		.gallery-row{
+	padding:3%;
+}
+
+.gallery-img{
+	border-style: solid; 
+	border-color:rgb(56, 65, 88);
+	margin: 2%;
+
+}	
+
 }

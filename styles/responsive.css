@@ -24,10 +24,17 @@
 /************
 1. 1600px
 ************/
-
+@media only screen and (max-width: 1920px)
+{
+	.home{
+		margin-top: 8%;
+	}
+}
 @media only screen and (max-width: 1600px)
 {
-	
+	.home{
+		margin-top: 8%;
+	}
 }
 
 /************
@@ -36,7 +43,9 @@
 
 @media only screen and (max-width: 1440px)
 {
-	
+	.home{
+		margin-top: 8%;
+	}
 }
 
 /************
@@ -356,7 +365,22 @@
 {
 	.home{
 		margin-top: 25%;
+		/*display: none;*/
+
 	}
+	.home img
+	{
+		max-height: 200px;
+		min-height: 200px;
+		height: 20%;
+		
+	}
+	.home >.carousel
+	{
+		height: 20%;
+		margin: auto;
+	}
+
 	h2
 	{
 		font-size: 24px;
@@ -405,6 +429,11 @@
 		width: 100%;
 		padding-left: 0;
 	}
+	/*.features
+	{
+		margin-top: 25%;
+
+	}*/
 }
 
 /************
@@ -414,7 +443,19 @@
 @media only screen and (max-width: 539px)
 {
 	.home{
-		margin-top: 25%;
+		margin-top: 10%;
+	}
+	.home img
+	{
+		max-height: 180px;
+		min-height: 180px;
+		height: 20%;
+		
+	}
+	.home >.carousel
+	{
+		height: 20%;
+		margin: auto;
 	}
 }
 
@@ -425,7 +466,19 @@
 @media only screen and (max-width: 480px)
 {
 	.home{
-		margin-top: 30%;
+		margin-top: 60%;
+	}
+	.home img
+	{
+		max-height: 150px;
+		min-height: 150px;
+		height: 20%;
+		
+	}
+	.home >.carousel
+	{
+		height: 20%;
+		margin: auto;
 	}
 }
 
@@ -436,8 +489,9 @@
 @media only screen and (max-width: 479px)
 {
 	.home{
-		margin-top: 35%;
+		margin-top: 40%;
 	}
+	
 	
 }
 
@@ -448,6 +502,10 @@
 @media only screen and (max-width: 400px)
 {
 	.home{
-		margin-top: 35%;
+	
+		margin-top: 40%;
 	}
+	
+	
+	
 }
