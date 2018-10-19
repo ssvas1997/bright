@@ -814,11 +814,18 @@ section
 }
 .contact_map
 {
+	
 	width: 100%;
 }
 .map
 {
+
 	width: 100%;
+}
+#bmap{
+	padding-left: 2%;
+	padding-right:2%;
+
 }
 .google_map
 {

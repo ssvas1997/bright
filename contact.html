@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Brights Classes">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/contact.css">
+<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+	<!-- Header -->
+
+	<header class="header">
+			
+		<!-- Top Bar -->
+		<div class="top_bar">
+			<div class="top_bar_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+								<ul class="top_bar_contact_list">
+									<li><div class="question">Any Queries?</div></li>
+
+									<li>
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<div>9619424425</div>
+									</li>
+									<li>
+										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<div>brightsclasses@gmail.com</div>
+									</li>
+								</ul>
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>				
+		</div>
+
+		<!-- Header Content -->
+		<div class="header_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							
+							<div class="logo_container">
+								<a href="index.html">
+									<div class="logo_text"><img  style="padding: 10px;width:100%;max-width: 300px;max-height: 90px;" src="BrightsImages/logo.png"/></div>
+								</a>
+							</div>
+							<div class="logo_container">
+								<a href="index.html">
+									<div class="logo_text"><img  style="padding: 10px;width:100%;max-width: 100px;max-height: 90px;" src="BrightsImages/modified edumentor.png"/></div>
+								</a>
+							</div>
+
+							<nav class="main_nav_contaner ml-auto">
+								<ul class="main_nav">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="about.html">About</a></li>
+									<li><a href="index.html#bcourses">Courses</a></li>
+									<li><a href="gallery.html">Gallery</a></li>
+									<li><a href="DOCS\brights.pdf">Brochure</a></li>
+									<li class="active"><a href="contact.html">Contact</a></li>
+									
+								</ul>
+								
+								<div class="hamburger menu_mm">
+									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+								</div>
+							</nav>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+		
+		<nav class="menu_nav">
+			<ul class="menu_mm">
+				<li class="menu_mm"><a href="index.html">Home</a></li>
+				<li class="menu_mm"><a href="about.html">About</a></li>
+				<li class="menu_mm"><a href="index.html#bcourses">Courses</a></li>
+				<li class="menu_mm"><a href="gallery.html">Gallery</a></li>
+				<li class="menu_mm"><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="breadcrumbs_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="breadcrumbs">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>Contact</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>			
+	</div>
+
+	<!-- Contact -->
+
+	<div class="contact">
+		
+		<!-- Contact Map -->
+
+		<div class="contact_map">
+
+			
+			<div class="map" >
+				<iframe id ="bmap" src="https://www.google.com/maps/d/embed?mid=1XrCXMp2pYElxkS2h274_jM1vtNR14mpD" width="100%" height="480"></iframe>
+					
+			</div>
+
+
+		</div>
+
+		<!-- Contact Info -->
+
+		<div class="contact_info_container">
+			<div class="container">
+				<div class="row">
+
+					<!-- Contact Form -->
+					<div class="col-lg-6">
+						<div class="contact_form">
+							<div class="contact_info_title">Contact Form</div>
+							<form id="cform" action="https://script.google.com/macros/s/AKfycbx05nNPS7oZnSeDQrZjVs_EdBpaiAfR_cmlQsTOLA/exec" class="gform comment_form" 
+							data-email="brightsclasses@gmail.com" method="POST">
+								<div>
+									<div class="form_title">Name</div>
+									<input type="text" name="name" class="comment_input" required="required">
+								</div>
+								<div>
+									<div class="form_title">Mobile No.</div>
+									<input type="text" name="mobile" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" maxlength="10" class="comment_input" required="required">
+								</div>
+								<div>
+									<div class="form_title">Email</div>
+									<input type="email" name="email" 
+									class="comment_input" required="required">
+								</div>
+								<div>
+									<div class="form_title">Message</div>
+									<textarea name="message" class="comment_input comment_textarea" required="required"></textarea>
+								</div>
+								<div>
+									<button type="submit" data-target="#myModal" class="comment_button trans_200">submit now</button>
+								</div>
+								<!-- Customise the Thankyou Message People See when they submit the form: -->
+							    <div class="thankyou_message" style="display:none;">
+
+							      <h2 style="font-family: 'Roboto Slab', serif;
+											font-size: 18px;font-weight: 700; color: #14bdee;">
+											Thanks for contacting us!
+							        We will get back to you soon!</h2>
+
+							    </div>
+							</form>
+							<!-- Submit the Form to Google Using "AJAX" -->
+							  <script data-cfasync="false" type="text/javascript"
+							  src="form-submission-handler.js"></script>
+						</div>
+					</div>
+
+					<!-- Contact Info -->
+					<div class="col-lg-6">
+						<div class="contact_info">
+							<div class="contact_info_title">Contact Info</div>
+					
+							<div class="contact_info_location">
+								<div class="contact_info_location_title">Registered Office</div>
+								<ul class="location_list">
+									<li>Office no. 214, 2nd floor, Shopzone,<br/> Next to Bank of India,
+											M.G. Road,<br/>Ghatkopar (W)</li>
+									<li> <a href="tel:9619424425"><i class="fa fa-2x fa-phone" aria-hidden="true"></i></a>  &nbsp;
+									+(91) 9619424425</li>
+									<li>brightsclasses@gmail.com</li>
+								</ul>
+							</div>
+							<div class="contact_info_location">
+								<div class="contact_info_location_title">Branch 1 - Ghatkopar</div>
+								<ul class="location_list">
+									<li>Shop No.6, Gelda Jyot,<br/>
+										Nr. SIES School, Gelda Nagar,<br/>
+										Golibar Road, Ghatkopar (W)</li>
+									<li><a href="tel:8652220671"><i class="fa fa-2x fa-phone" aria-hidden="true"></i></a>
+									&nbsp; +(91) 8652220671</li>
+								</ul>
+							</div>
+							<div class="contact_info_location">
+								<div class="contact_info_location_title">Branch 2 - Sakinaka</div>
+								<ul class="location_list">
+									<li>
+										M.N D’Souza compound,<br/>
+										Opp to S.J studio, <br/>
+										Kherani Road, Sakinaka,<br/>
+										Mumbai 400 072
+										</li>
+										<li><a href="tel:8652220672"><i class="fa fa-2x fa-phone" aria-hidden="true"></i>
+										</a>
+									&nbsp; +(91) 8652220672</li>
+								</ul>
+							</div>
+							<div class="contact_info_location">
+								<div class="contact_info_location_title">Branch 3 - Ghatkopar</div>
+								<ul class="location_list">
+									<li>Shop No -7, Rani Residency,<br/>
+										Opp Alpa Park, Chirag Nagar,<br/>
+										Ghatkopar west</li>
+										<li><a href="tel:8652220671"><i class="fa fa-2x fa-phone" aria-hidden="true"></i>
+										</a>
+									&nbsp; +(91) 8652220671</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="footer_background" style="background-image:url(images/footer_background.png)"></div>
+		<div class="container">
+			<div class="row footer_row">
+				<div class="col">
+					<div class="footer_content">
+						<div class="row">
+
+							
+							<div class="col-lg-4 footer_col">
+					
+								<!-- Footer Contact -->
+								<div class="footer_section footer_contact">
+									<div class="footer_title">Contact Us</div>
+									<div class="footer_contact_info">
+										<ul>
+											<li>Email: brightsclasses@gmail.com</li>
+											<li>Phone:  +(91) 9619 424 425</li>
+											<li>Registered Office:<br/>Office no. 214, 2nd floor, Shopzone, Next to Bank of India, M.G. Road, Ghatkopar West, Mumbai 400 086 </li>
+										</ul>
+									</div>
+								</div>
+								
+							</div>
+
+							<div class="col-lg-4 footer_col">
+					
+								<div class="footer_section footer_links">
+									<div class="footer_title">Quick Links</div>
+									<div class="footer_links_container">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="about.html">About</a></li>
+											<li><a href="gallery.html">Gallery</a></li>
+											<li><a href="index.html#bcourses">Courses</a></li>
+											<li><a href="contact.html">Contact</a></li>
+											
+											
+										</ul>
+									</div>
+								</div>
+								
+							</div>
+							
+							<div class="col-lg-4 footer_col" >
+					
+								<!-- Footer links -->
+								<div class="footer_section footer_links">
+									<div class="footer_title">Locate Us</div>
+									<div class="footer_links_container">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d942.6236340284753!2d72.90472792917497!3d19.085948899192644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c62c9982c477%3A0x73c7be7428b66ffd!2sBRIGHTS+CLASSES!5e0!3m2!1sen!2sin!4v1537091771204" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>
+								</div>
+								
+							</div>
+
+								
+							</div>
+
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+	</footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
+<script src="plugins/marker_with_label/marker_with_label.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
